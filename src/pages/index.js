@@ -6,7 +6,7 @@ import Hero from "../components/hero"
 import Prodcucts from "../components/products"
 
 const IndexPage = () => (
-  <div className=" bg-[#F8EDF5] ">
+  <div className=" h-screen bg-[#F8EDF5] ">
     <Navbar />
     <Navbar2 />
     <Hero />

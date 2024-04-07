@@ -21,7 +21,7 @@ function Navbar() {
 
                 {/* Menu Items */}
 
-               <ul className={`flex ${showLinks ? 'flex-col' : 'hidden'} sm:flex flex-col sm:flex-row gap-4 sm:gap-8 text-lg font-semibold  pt-1 `}>
+               <ul className={`flex ${showLinks ? 'flex-col' : 'hidden'} sm:flex flex-col sm:flex-row gap-8 sm:gap-10 text-lg font-semibold  pt-1 `}>
                 <li>
                     <a href="/" className="text-[#808080] hover:text-[#15206D] no-underline">Home</a>
                 </li>
@@ -30,6 +30,9 @@ function Navbar() {
                 </li>
                 <li>
                     <a href="/" className="text-[#808080] hover:text-[#15206D] no-underline">Contact Us</a>
+                </li>
+                <li>
+                    <a href="/" className="text-[#808080] hover:text-[#15206D] no-underline">About Us</a>
                 </li>
             </ul>
            

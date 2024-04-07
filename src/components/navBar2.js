@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <nav className="flex flex-row pt-10  justify-between items-center h-auto sm:h-14 bg-white text-white px-8 sm:px-16 py-4">
             {/* Logo Section */}
-            <div className="flex  gap-10 ">
+            <div className="flex  gap-10 ml-4 ">
                 
                 <img src={LogoSvg} alt="Logo" className="h-8 sm:h-10" /> {/* Adjust the height as needed */}
 

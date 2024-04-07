@@ -10,8 +10,8 @@ function Navbar() {
     };
 
     return (
-        <nav className="flex flex-row sm:flex-row justify-between px-14 w-screen items-center sm:items-center h-auto sm:h-10 bg-[#15206D] text-white ">
-            <div className=' font-Jost'>
+        <nav className="flex flex-row sm:flex-row justify-between px-20 w-screen items-center sm:items-center h-auto sm:h-10 bg-[#15206D] text-white ">
+            <div className=' font-Jost '>
                 Welcome to our yessa Dairy !
             </div>
             <div className='flex gap-5 '>

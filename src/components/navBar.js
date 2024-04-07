@@ -11,17 +11,17 @@ function Navbar() {
 
     return (
         <nav className="flex flex-row sm:flex-row justify-between px-20 w-screen items-center sm:items-center h-auto sm:h-10 bg-[#15206D] text-white ">
-            <div className=' font-Jost '>
+            <div className=' font-Jost text-xs sm:text-base '>
                 Welcome to our yessa Dairy !
             </div>
             <div className='flex gap-5 '>
                 <span className='flex items-center mr-4 '>
                     <img src={PhoneIcon} alt="Phone Icon" className="h-4 w-4 mr-1 mt-6 " />
-                    <span className="align-middle font-Jost  ">+91 9825720827</span>
+                    <span className="align-middle font-Jost text-xs sm:text-base ">+91 9825720827</span>
                 </span>
                 <span className='flex items-center'>
                     <img src={EmailIcon} alt="Email Icon" className="h-4 w-4 mr-1 mt-6" />
-                    <span className="align-middle font-Jost ">yessa@gmail.com</span>
+                    <span className="align-middle font-Jost text-xs sm:text-base ">yessa@gmail.com</span>
                 </span>
             </div>
         </nav>

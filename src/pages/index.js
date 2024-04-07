@@ -7,7 +7,7 @@ import Prodcucts from "../components/products"
 import Aboutus  from "../components/aboutus"
 
 const IndexPage = () => (
-  <div className=" h-screen bg-[#F8EDF5] gap-10 ">
+  <div className=" h-screen bg-[#F8EDF5] ">
     <Navbar />
     <Navbar2 />
     <Hero />

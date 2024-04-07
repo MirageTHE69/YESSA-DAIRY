@@ -5,7 +5,13 @@ module.exports = {
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+
+          'Jost' : ['Jost', 'sans-serif'],
+          'Ls' : [ 'League Spartan', 'sans-serif'] 
+      }
+    },
   },
   plugins: [],
 }

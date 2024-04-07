@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Jont';
+    src: url('../styles/Jost-Medium.woff2') format('woff2');
+    /* Add other font formats if necessary */
+}
+
+/* Apply the font to elements */
+body {
+    font-family: 'Jont', sans-serif; /* Fallback to sans-serif if Jont is not available */
+}

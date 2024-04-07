@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import HeroImg from "../images/HeroImg.svg";
+import HeroImg from "../images/heroImg.svg";
 
 function Hero() {
     return (

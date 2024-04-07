@@ -3,7 +3,7 @@ import HeroImg from "../images/heroImg.svg";
 
 function Hero() {
     return (
-        <div className=" lg:h-screen md:h-screen w-screen bg-[#F8EDF5] flex flex-col sm:flex-row justify-around ">
+        <div className=" lg:h-screen md:h-screen  w-screen bg-[#F8EDF5] flex flex-col sm:flex-row justify-around ">
             <div className="flex flex-col justify-center sm:w-[50%] p-6 ml-10">
                 <div className="flex flex-col gap-6">
                     <span className="text-lg font-Jost   font-medium text-[#983D7E]">Lorem Ipsum is simply dummy text </span>

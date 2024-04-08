@@ -14,7 +14,7 @@ function Products() {
         </div>
         <span className="flex justify-center font-bold text-4xl  mb-10 font-Ls text-[#15206D]">Introducing our products</span>
       </div>
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 py-8">
+      <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-10 px-4 py-8">
         {/* Card 1 */}
         <div className="flex flex-col items-center  pb-10 rounded-[20px] shadow-xl  ">
           <img src={MilkSvg} alt="Milk" className="w-full h-auto mb-4" />

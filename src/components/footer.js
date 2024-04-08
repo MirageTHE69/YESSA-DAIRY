@@ -19,9 +19,10 @@ function Footer() {
 
         <div className="mt-10 w-full border-b border-white "></div>
         
-        <div className="w-full flex flex-col sm:flex-row justify-between items-center mt-8">
+        <div className="w-full  flex flex-col sm:flex-row justify-between items-center mt-8">
           <span className="text-xs text-center sm:text-left">© 2024 Yessa. All Rights Reserved.</span>
-          <div className="flex flex-row gap-5 mt-5 sm:mt-0">
+          <div className="flex flex-row item-center justify-center gap-5 mt-5 sm:mt-5">
+             
             <a href="/" className="text-black hover:text-blue-500">
               <img src={InstagramIcon} alt="Instagram" className="h-6 w-6 sm:h-8 sm:w-8" />
             </a>

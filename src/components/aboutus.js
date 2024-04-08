@@ -3,7 +3,7 @@ import Frame from '../images/Frame.svg';
 
 function Aboutus() {
   return (
-    <div className="w-screen h-[70%] bg-[#F8EDF5] mt-20 flex flex-col sm:flex-row items-center">
+    <div className="w-screen h-[60%] bg-[#F8EDF5] mt-20 flex flex-col sm:flex-row items-center">
       <div className="w-full sm:w-[35%] flex flex-col items-center justify-center gap-5 p-6 sm:p-20">
         <div className="flex items-center justify-center gap-5 text-[#983D7E]">
           <span className="text-2xl font-bold">Our Products</span>

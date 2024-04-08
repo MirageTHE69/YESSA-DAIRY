@@ -5,6 +5,11 @@ import Navbar2 from "../components/navBar2"
 import Hero from "../components/hero"
 import Prodcucts from "../components/products"
 import Aboutus  from "../components/aboutus"
+import Footer from "../components/footer"
+import Info from "../components/info"
+import Testimonials from "../components/testimonials"
+import Contactus from "../components/contactus"
+
 
 const IndexPage = () => (
   <div className=" h-screen bg-[#F8EDF5] ">
@@ -13,6 +18,11 @@ const IndexPage = () => (
     <Hero />
     <Prodcucts />
     <Aboutus/>
+    <Info/>
+    <Testimonials/>
+    <Contactus/>
+    <Footer/>
+  
   </div>
 )
 

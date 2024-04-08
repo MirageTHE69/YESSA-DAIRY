@@ -5,6 +5,9 @@ module.exports = {
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    borderRadius:{
+      'large' : '110px' 
+    },
     extend: {
       fontFamily:{
 

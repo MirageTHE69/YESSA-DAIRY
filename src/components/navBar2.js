@@ -49,17 +49,18 @@ function Navbar() {
     }, []);
 
     return (
-        <nav className="flex flex-row pt-10  justify-between items-center h-auto sm:h-14 bg-white text-white px-8 sm:px-16 py-4">
+        <nav className="flex flex-row pt-10 justify-between items-center h-auto sm:h-14 bg-white text-white px-8 sm:px-16 py-4">
             {/* Logo Section */}
-            <div className="flex  gap-10 ml-4 ">
-                
-                <img src={LogoSvg} alt="Logo" className="h-8 sm:h-14" /> {/* Adjust the height as needed */}
+            <div className="flex gap-10 ml-4 ">
+                {/* Conditionally render the logo based on showLinks */}
+                {showLinks ? null : (
+                    <img src={LogoSvg} alt="Logo" className="h-8 sm:h-14" />
+                )}
 
                 {/* Menu Items */}
-
-                <ul className={`flex ${showLinks ? 'flex-col' : 'hidden'} sm:flex flex-col sm:flex-row gap-8 sm:gap-10 text-lg font-semibold  pt-2 items-center  `} >
+                <ul className={`flex ${showLinks ? 'flex-col' : 'hidden'} sm:flex flex-col sm:flex-row gap-8 sm:gap-10 text-lg font-semibold pt-2 items-center`}>
                     <li>
-                    <a href="#Hero" className={`text-[#808080] hover:text-[#15206D] no-underline ${currentSection === 'Hero' ? 'font-bold text-blue-900' : ''}`} onClick={() => smoothScrollTo('home')}>Home</a>
+                        <a href="#Hero" className={`text-[#808080] hover:text-[#15206D] no-underline ${currentSection === 'Hero' ? 'font-bold text-blue-900' : ''}`} onClick={() => smoothScrollTo('home')}>Home</a>
                     </li>
                     <li>
                         <a href="#Products" className={`text-[#808080] hover:text-[#15206D] no-underline ${currentSection === 'products' ? 'font-bold' : ''}`} onClick={() => smoothScrollTo('products')}>Products</a>
@@ -71,25 +72,27 @@ function Navbar() {
                         <a href="#aboutus" className={`text-[#808080] hover:text-[#15206D] no-underline ${currentSection === 'about' ? 'font-bold' : ''}`} onClick={() => smoothScrollTo('about')}>About Us</a>
                     </li>
                 </ul>
-           
             </div>
 
             {/* Social Media Icons */}
-            <div className="flex items-center gap-4">
-                <a href="/">
-                    <img src={InstagramIcon} alt="Instagram" className="h-8 w-8 text-white hover:text-green-500" />
-                </a>
-                <a href="/">
-                    <img src={FacebookIcon} alt="Facebook" className="h-8 w-8 text-white hover:text-green-500" />
-                </a>
-                <a href="/">
-                    <img src={LinkedInIcon} alt="LinkedIn" className="h-8 w-8 text-white hover:text-green-500" />
-                </a>
-            </div>
+            {/* Conditionally render the social media icons based on showLinks */}
+            {showLinks ? null : (
+                <div className="flex items-center gap-4">
+                    <a href="/">
+                        <img src={InstagramIcon} alt="Instagram" className="h-8 w-8 text-white hover:text-green-500" />
+                    </a>
+                    <a href="/">
+                        <img src={FacebookIcon} alt="Facebook" className="h-8 w-8 text-white hover:text-green-500" />
+                    </a>
+                    <a href="/">
+                        <img src={LinkedInIcon} alt="LinkedIn" className="h-8 w-8 text-white hover:text-green-500" />
+                    </a>
+                </div>
+            )}
 
             {/* Mobile Menu Button */}
             <div className="sm:hidden">
-                <button onClick={toggleLinks} className="block text-black hover:text-green-500 focus:outline-none">
+                <button onClick={toggleLinks} className="block text-black hover:text-green-500 focus:outline-none mb-5">
                     {showLinks ? (
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

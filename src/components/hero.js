@@ -13,7 +13,7 @@ function Hero() {
                         <p>Taste, and Health</p>
                     </div>
                     <p className="text-[#888888] font-Jost">Welcome to Delightful Dairy, where freshness meets flavor, and health meets happiness! Explore our range of premium dairy products straight from our farms to your table. From creamy milk to wholesome paneer and refreshing lassi, we bring you the goodness of nature in every bite and sip. Indulge in the taste of tradition with a modern twist!</p>
-                    <button className="text-white border bg-[#15206D] w-[30%] px-4 py-2  rounded-lg hover:bg-[#15206D] hover:text-white transition-colors duration-300">Explore More</button>
+                    <button className="text-white border bg-[#15206D] w-[45%] sm:w-[30%] px-4 py-2  rounded-[12px] hover:bg-[#15206D] hover:text-white transition-colors duration-300">Explore More</button>
                 </div>
             </div>
             <div className="h-full sm:w-[50%] flex items-center justify-center">

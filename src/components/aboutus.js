@@ -11,7 +11,7 @@ function Aboutus() {
           </span>
         </div>
         <p className="text-2xl w-[60%] text-left font-Ls font-bold text-[#15206D]">Lorem ipsum Dummy Text</p>
-        <button className="text-white border  bg-[#15206D] w-[40%] sm:w-[50%] md:w-[50%] px-4 py-2 rounded-[12px] hover:bg-[#15206D] hover:text-white transition-colors duration-300">
+        <button className="text-white border  bg-[#15206D] w-[50%] sm:w-[50%] md:w-[50%] px-4 py-2 mr-1 rounded-[12px] hover:bg-[#15206D] hover:text-white transition-colors duration-300">
           Read More
         </button>
       </div>

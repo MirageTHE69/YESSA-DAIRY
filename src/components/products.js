@@ -16,7 +16,7 @@ function Products() {
       </div>
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 py-8">
         {/* Card 1 */}
-        <div className="flex flex-col items-center  pb-10 rounded-3xl shadow-xl  ">
+        <div className="flex flex-col items-center  pb-10 rounded-[20px] shadow-xl  ">
           <img src={MilkSvg} alt="Milk" className="w-full h-auto mb-4" />
           <h2 className="text-3xl text-[#15206D] font-bold mb-2 font-Ls">Milk</h2>
           <p className="text-sm text-gray-500 px-4 text-center ">
@@ -24,21 +24,21 @@ function Products() {
           </p>
         </div>
         {/* Repeat for other cards */}
-        <div className="flex flex-col items-center bg-white pb-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col items-center bg-white pb-10 rounded-[20px] shadow-xl">
           <img src={ButterSvg} alt="Milk" className="w-full h-auto mb-4" />
           <h2 className="text-3xl font-bold mb-2 text-[#15206D] font-Ls ">Milk</h2>
           <p className="text-sm text-gray-500 px-4 text-center">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
           </p>
         </div>
-        <div className="flex flex-col items-center bg-white pb-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col items-center bg-white pb-10 rounded-[20px] shadow-xl">
           <img src={GheeSvg} alt="Milk" className="w-full h-auto mb-4" />
           <h2 className="text-3xl  font-bold mb-2 font-Ls text-[#15206D]">Milk</h2>
           <p className="text-sm text-gray-500 px-4 text-center">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
           </p>
         </div>
-        <div className="flex flex-col items-center bg-white pb-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col items-center bg-white pb-10 rounded-[20px] shadow-xl">
           <img src={MilkSvg} alt="Milk" className="w-full h-auto mb-4" />
           <h2 className="text-3xl font-bold mb-2 font-Ls text-[#15206D]">Milk</h2>
           <p className="text-sm text-gray-500 px-4 text-center">
@@ -46,7 +46,7 @@ function Products() {
           </p>
         </div>
         
-        <div className="flex flex-col items-center bg-white pb-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col items-center bg-white pb-10 rounded-[20px] shadow-xl">
           <img src={MilkSvg} alt="Milk" className="w-full h-auto mb-4" />
           <h2 className="text-3xl text-[#15206D] font-bold mb-2 font-Ls">Milk</h2>
           <p className="text-sm text-gray-500 px-4 text-center">
@@ -54,7 +54,7 @@ function Products() {
           </p>
         </div>
         
-        <div className="flex flex-col items-center bg-white pb-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col items-center bg-white pb-10 rounded-[20px] shadow-xl">
           <img src={MilkSvg} alt="Milk" className="w-full h-auto mb-4" />
           <h2 className="text-3xl text-[#15206D] font-bold mb-2 font-Ls">Milk</h2>
           <p className="text-sm text-gray-500 px-4 text-center">

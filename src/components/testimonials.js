@@ -18,7 +18,7 @@ function Testimonials() {
       </div>
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 py-8">
         {/* Card 1 */}
-        <div className="flex flex-col items-center  pb-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col items-center  pb-10 rounded-[20px] shadow-xl">
           <img
             src={Profile}
             alt="Milk"
@@ -36,7 +36,7 @@ function Testimonials() {
           <span className=" text-[#7E7E7E]">Customer</span>
         </div>
         {/* Repeat for other cards */}
-        <div className="flex flex-col items-center  pb-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col items-center  pb-10 rounded-[20px] shadow-xl">
           <img
             src={Profile}
             alt="Milk"
@@ -54,7 +54,7 @@ function Testimonials() {
           <span className=" text-[#7E7E7E]">Customer</span>
         </div>
 
-        <div className="flex flex-col items-center  pb-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col items-center  pb-10 rounded-[20px] shadow-xl">
           <img
             src={Profile}
             alt="Milk"
@@ -72,7 +72,7 @@ function Testimonials() {
           <span className=" text-[#7E7E7E]">Customer</span>
         </div>
 
-        <div className="flex flex-col items-center  pb-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col items-center  pb-10 rounded-[20px] shadow-xl">
           <img
             src={Profile}
             alt="Milk"

@@ -57,7 +57,7 @@ function Navbar() {
 
                 {/* Menu Items */}
 
-                <ul className={`flex ${showLinks ? 'flex-col' : 'hidden'} sm:flex flex-col sm:flex-row gap-8 sm:gap-10 text-lg font-semibold  pt-1 items-center `} >
+                <ul className={`flex ${showLinks ? 'flex-col' : 'hidden'} sm:flex flex-col sm:flex-row gap-8 sm:gap-10 text-lg font-semibold  pt-2 items-center  `} >
                     <li>
                     <a href="#Hero" className={`text-[#808080] hover:text-[#15206D] no-underline ${currentSection === 'Hero' ? 'font-bold text-blue-900' : ''}`} onClick={() => smoothScrollTo('home')}>Home</a>
                     </li>

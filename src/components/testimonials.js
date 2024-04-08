@@ -5,7 +5,7 @@ import Profile from "../images/profile.svg"
 
 function Testimonials() {
   return (
-    <div className="min-h-[70%] bg-white">
+    <div id="testi" className="min-h-[70%] bg-white">
       <div className="flex flex-col justify-center items-center gap-4 pt-10 text-black">
         <div className="flex justify-center items-center gap-2 text-[#983D7E]">
           <span className="font-extrabold">--------------</span>

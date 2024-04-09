@@ -1,5 +1,5 @@
 import * as React from "react"
-import AboutImage from "../images/AboutImage.svg"
+import AboutImage from "../images/aboutImage.svg"
 
 function HeroAbout() {
   return (
